@@ -1,0 +1,12 @@
+E:\A\Visual\appkasir\appkasir\appkasir\bin\Debug\appkasir.exe.config
+E:\A\Visual\appkasir\appkasir\appkasir\bin\Debug\appkasir.exe
+E:\A\Visual\appkasir\appkasir\appkasir\bin\Debug\appkasir.pdb
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.csprojAssemblyReference.cache
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.FormLogin.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.FormMenuUtama.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.Properties.Resources.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.csproj.GenerateResource.cache
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.csproj.CoreCompileInputs.cache
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.exe
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.pdb
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.FormMasterKasir.resources

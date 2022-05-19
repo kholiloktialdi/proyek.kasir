@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8153CD7E-1253-436D-9254-9CB3F233D339}</ProjectGuid>
+    <ProjectGuid>{B111C329-AE5D-4BD5-AF64-B6BCA8E06A2A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>appkasir</RootNamespace>
     <AssemblyName>appkasir</AssemblyName>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,16 +53,26 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMasterKasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterKasir.Designer.cs">
+      <DependentUpon>FormMasterKasir.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenuUtama.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMenuUtama.Designer.cs">
       <DependentUpon>FormMenuUtama.cs</DependentUpon>
     </Compile>
+    <Compile Include="Koneksi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterKasir.resx">
+      <DependentUpon>FormMasterKasir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuUtama.resx">
       <DependentUpon>FormMenuUtama.cs</DependentUpon>
