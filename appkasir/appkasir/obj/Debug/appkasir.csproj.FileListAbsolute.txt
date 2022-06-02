@@ -10,3 +10,7 @@ E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.csproj.CoreCompileInpu
 E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.exe
 E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.pdb
 E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.FormMasterKasir.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.FormPenjualan.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.FormMasterBarang.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.DialogBarang.resources
+E:\A\Visual\appkasir\appkasir\appkasir\obj\Debug\appkasir.DialogKasir.resources

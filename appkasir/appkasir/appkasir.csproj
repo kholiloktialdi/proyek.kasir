@@ -47,11 +47,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DialogBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBarang.Designer.cs">
+      <DependentUpon>DialogBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogKasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogKasir.Designer.cs">
+      <DependentUpon>DialogKasir.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterBarang.Designer.cs">
+      <DependentUpon>FormMasterBarang.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMasterKasir.cs">
       <SubType>Form</SubType>
@@ -65,17 +83,35 @@
     <Compile Include="FormMenuUtama.Designer.cs">
       <DependentUpon>FormMenuUtama.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPenjualan.Designer.cs">
+      <DependentUpon>FormPenjualan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Koneksi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DialogBarang.resx">
+      <DependentUpon>DialogBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogKasir.resx">
+      <DependentUpon>DialogKasir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterBarang.resx">
+      <DependentUpon>FormMasterBarang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMasterKasir.resx">
       <DependentUpon>FormMasterKasir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuUtama.resx">
       <DependentUpon>FormMenuUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPenjualan.resx">
+      <DependentUpon>FormPenjualan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -98,6 +135,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

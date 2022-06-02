@@ -36,8 +36,10 @@ namespace appkasir
                 if (reader.Read())
                 {
                     FormMenuUtama frmUtama = new FormMenuUtama();
+                    MessageBox.Show("Berhasil Login");
                     frmUtama.Show();
                     this.Hide();
+                    
                 }
                 else
                 {
@@ -66,7 +68,7 @@ namespace appkasir
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-
+            textBox2.PasswordChar = '*';
         }
     }
 }
